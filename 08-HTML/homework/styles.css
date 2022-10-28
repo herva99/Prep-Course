@@ -1,18 +1,40 @@
+body{
+    background-image: url(https://eveniments.es/wp-content/uploads/2019/03/fondos-abstractos-para-paginas-web-wallpaper-hd-para-bajar-gratis-elegant-3d-abstract-wallpaper-2018-wallpapers-hd-en-2018-of-fondos-abstractos-para-paginas-web-wallpaper-hd-para-bajar-grati.jpg);
+    text-align:center;
+}
 h1{
-    color: darkorange
+    color: rgb(255, 0, 0)
 }
 
+h3{
+    color: rgb(0, 255, 98);
+}
+h4{
+    color: rgb(255, 0, 234);
+}
 img{
     width: 400px
+    
 }
 #thirdDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
     height: 600px;
     width: 500px;
-    background-color: black;
     padding: 50px;
-    border: 50px dotted yellow;
+    border: 50px dotted rgb(0, 255, 221);
+    margin-left: 680px;
+    
+    
 }
 #spanId{
     font-size: 18px;
     margin: 50px;
+    color: orange;
+}
+a{
+    color: white;
+    font-size: 30px;
 }
